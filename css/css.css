@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{
+	margin:0px;
+	padding:0px;
+	border:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+/* 登入 */
+#login_BG{
+	width:363px;
+	height:264px;
+	background:url(../images/login_bg.jpg) no-repeat;
+	margin:300px auto 0px auto;
+}
+#login_list{
+	width:230px;
+	padding-top:105px;
+	padding-left:80px;
+}
+
+/*  */
+#Main_bg{
+	width:996px;
+	margin:0px auto;
+	background:url(../images/mainBG.jpg) no-repeat;
+	min-height:865px;
+	height:auto !important;
+	height:865px;
+}
+#MainList{
+	padding:0px 23px;
+}
+#bannerBG{
+	background:url(../images/banner_BG.jpg) no-repeat;
+	height:156px;
+}
+#menu{
+	padding-top:130px;
+}
+#menu ul li{
+	float:left;
+	padding:0px 15px;
+	border-right:1px #FFF solid;
+}
+#menu ul li a{
+	font-size:16px;
+	color:#FFF;
+	font-weight:bold;
+	text-decoration:none;
+}
+#menu ul li.current a{
+	color:#FF0;
+}
+#center{
+	margin:10px 0px 50px 0px;
+	width:950px;
+	float:left;
+	min-height:500px;
+	height:auto !important;
+	height:500px;
+}
+
+/* left */
+#left{
+	width:190px;
+	float:left;
+	margin-right:15px;
+}
+#submenu{
+	width:170px;
+	margin:10px 10px;
+}
+#submenu ul li{
+	padding:5px;
+	border-bottom:1px #506901 dashed;
+}
+#submenu ul li a{
+	font-size:16px;
+	color:#506901;
+	font-weight:bold;
+	text-decoration:none;
+}
+#submenu ul li.cu{
+	background-color:#93b70f;
+}
+#submenu ul li.cu a{
+	color:#FFF;
+}
+
+/* right */
+#right{
+	width:735px;
+	float:left;
+}
+#right_title{
+	height:30px;
+	background:url(../images/right_titleBG.jpg) repeat-x;
+	background-position:left bottom;
+	padding-left:5px;
+	font-size:18px;
+	color:#0058ab;
+	font-weight:bold;
+	margin-top:35px;
+}
+#right_main{
+	padding:10px;
+}
+
+/* footer */
+#footer{
+	clear:both;
+	padding:10px 0px;
+	margin:0px 15px;
+	text-align:center;
+	border-top:1px #c8c8c8 solid;
+	color:#2f2f2f;
+}
+
+/* banner */
+.banner_list{
+	padding:10px 5px;
+	border-bottom:1px #c8c8c8 dashed;
+	width:705px;
+	float:left;
+}
+.banner_icon{
+	float:right;
+}
+.banner_icon div{
+	float:left;
+	margin-left:10px;
+}
+.banner_img{
+	float:left;
+}
+.banner_img div{
+	padding:3px 0px;
+}
+
+/* 影音 */
+.video_sort{
+	margin-top:20px;
+}
+.video_sort ul li a{
+	font-size:16px;
+	color:#506901;
+	font-weight:bold;
+	text-decoration:none;
+	line-height:24px;
+}
+.video_sort ul li ul li{
+	padding-left:20px;
+}
+.video_sort ul li ul li a{
+	font-size:12px;
+	font-weight:normal;
+}
+#video_page{
+	text-align:right;
+}
+
+/* book */
+#book_title{
+	font-size:16px;
+	color:#C03;
+	font-weight:bold;
+}
+
+/* 每月主題推薦 */
+.theme_years{
+	height:40px;
+}
+.theme_years ul li{
+	padding:5px 10px;
+	border:1px #0064b1 solid;
+	float:left;
+	margin-right:10px;
+}
+.theme_years ul li a{
+	color:#0064b1;
+	font-weight:bold;
+	text-decoration:none;
+}
+.theme_years ul li.op01{
+	background-color:#0064b1;
+}
+.theme_years ul li.op01 a{
+	color:#FFF;
+}
+.theme_mouth{
+	clear:both;
+}
+.theme_mouth ul li{
+	float:left;
+	padding:5px 0px;
+	border:1px #999 solid;
+	margin-right:4px;
+}
+.theme_mouth ul li a{
+	padding:0px 10px;
+	color:#666;
+	text-decoration:none;
+}
+.theme_mouth ul li.op02{
+	background-color:#666;
+}
+.theme_mouth ul li.op02 a{
+	color:#fff;
+	font-weight:bold;
+}
+.theme_form{
+	clear:both;
+	padding-top:10px;
+}
+
+/* 統計報表 */
+#report_title{
+	font-size:16px;
+	color:#666;
+	font-weight:bold;
+}
+#report_btn{
+	text-align:right;
+	margin:10px 0px;
+}
+
+/* page */
+#page{
+	margin:25px 0px 25px 160px;
+}
+#page ul li{
+	margin:0px 2px;
+	padding:2px 0px;
+	border:1px #999999 solid;
+	float:left;
+}
+#page ul li a{
+	color:#666;
+	text-decoration:none;
+	padding:0px 5px;
+}
+#page ul li.op{
+	border:none;
+}
+#page ul li.op a{
+	font-weight:bold;
+	font-size:14px;
+}
+
+/* 表格 */
+.tabledate01{
+	margin-top:10px;
+}
+.tabledate01 th{
+	background-color:#e0e0e0;
+	padding:5px 0px;
+	color:#555;
+	font-weight:normal;
+}
+.tabledate01 td{
+	padding:5px 0px;
+	text-align:center;
+	border-bottom:1px #c8c8c8 dashed;
+}
+.tabledate01 td a{
+	color:#000;
+	text-decoration:none;
+}
+.tabledate01 td.txtL{
+	text-align:left;
+	padding-left:5px;
+}
+.tabledate01 tr.GrayBG{
+	background-color:#eaeaea;
+}
+
+.tabledate02 th{
+	text-align:right;
+	font-size:16px;
+	color:#506901;
+	font-weight:normal;
+	padding:5px;
+}
+.tabledate02 td{
+	padding:5px;
+}
+
+/* font */
+.FontGray{
+	color:#777;
+}
+.FontRed{
+	color:#F00;
+}

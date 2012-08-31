@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^($|index\.php|images|css|js|robots\.txt|favicon\.ico|fm|include|files|flash|mobile|rss|smarty|video_coa|video_ebook|a10|a11|favorite|media|version|vcode|userDetail|ttv|sitemap\.php|set|search|oldindex|privacy|new|mix\.php|Mcategory\.php|live|index_|ftv\.php|gtv\.php|hot\.php|check\.php|contact_us\.php|copyright\.php|faq\.php|fastplay320\.swf|flora_player|forget_email\.php|layoutSetup|[lL]og|send_chkEmail\.php|upload\.php|index-new\.php|admin)
+RewriteRule ^(.*)$ /index-new.php/$1 [L]

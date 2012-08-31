@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/********************************************/
+/* 全域 */
+/********************************************/
+
+*{ margin:0; padding:0; font-size:12px; font-family: Arial, Helvetica, Sans-Serif; line-height:1.8em; }
+body{ color:#333; background:url(../images/bg_body.gif) left top repeat-x; }
+ol,ul{ list-style:none; }
+table{ border-collapse:collapse; border-spacing:0; }
+img{ border:none; vertical-align:middle; }
+
+a{ blr:expression(this.onFocus=this.blur()); text-decoration:none; color:#333; }
+a:focus { outline: none; }
+a:hover{ text-decoration:none; }
+
+/********************************************/
+/* 列表樣式 */
+/********************************************/
+
+/* 標題列有底圖 有框線 */
+.listStyle1{ width:100%; }
+.listStyle1 th{ color:#0a467e; height:39px; padding:4px; border:1px solid #dddddd; background:url(../images/bg_table.jpg) left bottom repeat-x; }
+.listStyle1 td{ height:39px; padding:4px; border:1px solid #dddddd; }
+.listStyle1 .title th{ color:#0a467e; background:url(../images/bg_table.jpg) left bottom repeat-x; }
+
+/********************************************/
+/* 表單樣式 */
+/********************************************/
+
+/* 表單容器 */
+.formBox1{ width:600px; margin:0 auto; }
+
+
+/* 表單標題 */
+.formTitle1{ font-weight:bolder; text-align:center; }
+
+
+/* 雙欄位表單 */
+.formStyle1{ width:100%; border-collapse:separate; border:1px solid #ddd; background-color:#f0f0f0; }
+.formStyle1 input[type=text],
+.formStyle1 textarea{ padding:3px; }
+.formStyle1 input[type=button],
+.formStyle1 input[type=submit]{ padding:0px 10px; }
+.formStyle1 th{ color:#0a467e; font-weight:bolder; padding:8px 5px; border:1px solid #fff; background:#f6f6f6; }
+.formStyle1 td{ padding:8px 5px; border:1px solid #fff; }
+.formStyle1 td a{ text-decoration:underline; color:#03F; }
+.formStyle1 .text{ width:97%; }
+.formStyle1 .title th{ color:#0a467e; font-weight:bolder; padding:8px 5px; background:url(../images/bg_table.jpg) left bottom repeat-x; }
+.formStyle1 .title td{ padding:8px 5px; background:#FFC; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

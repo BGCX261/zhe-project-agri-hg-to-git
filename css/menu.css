@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+	.mAtop_menu{ width:720px; margin:0 auto; padding:0; padding-top:40px; }
+	
+	/* 主選單樣式 */
+	.mAtop_menu .menu li{ width:120px; display:block; float:left; position:relative;}
+	.mAtop_menu .menu li a{ width:120px; height:39px; display:block;  }
+	 
+	/* 滑入效果*/
+	.mAtop_menu .menu li:hover{ background:#999; }
+	.mAtop_menu .menu li:hover a{ color:#fff; }
+	.mAtop_menu .menu li:hover .submenu li a{ color:#666; }
+	.mAtop_menu .menu li .submenu li:hover a{ color:#fff; } 
+	
+	
+	/* 次選單樣式 */
+	.mAtop_menu .submenu{ width:120px; background:#fff; position:absolute; left:-1px; top:40px; border:1px solid #666;  }
+	.mAtop_menu .submenu li{ display:block; text-align:left; padding-left:10px; }
+	.mAtop_menu .submenu li a{ display:block; width:105px; height:24px; padding-left:15px; color:#666; }
+	
+	.mAtop_menu .submenu_child{ background:#fff; position:absolute; left:120px; top:-1px; border:1px solid #f00; }
+	.mAtop_menu .submenu_child li{ display:block; text-align:left; }
+	.mAtop_menu .submenu_child li a{ display:block; width:120px; color:#666; }
+	 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

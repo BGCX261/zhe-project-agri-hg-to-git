@@ -1,0 +1,5 @@
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'u41000_agri';
+$db['default']['password'] = 'tmnhBtUoB2';
+$db['default']['database'] = 'u41000_agri';
+$db['default']['dbdriver'] = 'mysql';

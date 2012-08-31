@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*選單IE6*/
+/*大外包*/
+.main_nav_1{ _position:relative; _left:245px; _top:-9px; _visibility:hidden; }
+.main_nav_2{ _position:relative; _left:364px; _top:-153px; _visibility:hidden; }
+
+/*第一層*/
+.mn_1 li a:hover{ _display:block; _padding:8px 10px 8px 12px; _color:#fff; _background:#0a467e; }
+
+/*第二層*/
+.mn_1 li ul.mn_1_list{ _width:120px; _position:absolute; _left:109px; _top:-2px; _visibility:hidden; }
